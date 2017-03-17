@@ -1,4 +1,4 @@
-# Strava Segment Weather Analysis
+# Strava Segment Wind Analysis
 ## Purpose
 The purpose of this web app is to analyze segment efforts on Strava and determine if wind was a considerable factor in the performance.
 

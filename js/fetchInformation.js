@@ -123,21 +123,11 @@ function ajaxWeatherInformation(num){
             $('.determinate').css('width', '80%');
             calculateInfluenceRating();
             updateTable();
-      }
-}
-     /*$.getJSON(old, function (info) {
-        output[num].windSpeed = info.hourly.data[12].windSpeed; //fix so that you get the right hour!
-        output[num].windBearing = info.hourly.data[12].windBearing;
-        done++;
-        if (done == output.length){
-            $('.determinate').css('width', '80%');
-            calculateInfluenceRating();
-            updateTable();
         }
-    });*/
+    }
 }
 
-/* THis method calls in sequential order the get weather information */
+/* This method calls in sequential order the get weather information */
 function getWeatherInformation(){
     for(var y = 0 ; y < output.length; y++){
          ajaxWeatherInformation(y);
